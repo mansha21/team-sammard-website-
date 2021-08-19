@@ -31,7 +31,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeloy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "react-scripts build && aws s3 rm s3://teamsammard.com/ --recursive && aws cp ./ build s3://teamsammard.com/ --recursive --acl public-read"
   },
   "eslintConfig": {
     "extends": [

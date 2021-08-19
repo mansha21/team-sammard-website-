@@ -160,7 +160,7 @@ const Cansat3 = () => {
                         {
                             data3.map((link) =>
                                 <Col xs={12} >
-                                <h4 className="text-heading offset-md-2 col-xs-12 col-md-8  ">{link.title}</h4>
+                                <h4 className="text-heading offset-md-2 col-xs-12 col-md-8 ">{link.title}</h4>
                                         <div ><p className=" cansat1p justify-content">{link.info1}</p></div>
                                             <ul className="cansat1ul">
                                                 <li className=" cansat1li ">{link.info2}</li>
@@ -184,7 +184,7 @@ const Cansat3 = () => {
                         {
                             data3.map((link) =>
                                 <Col xs={12} >
-                                <h4 className="text-heading offset-md-2 col-xs-12 col-md-8  ">{link.title}</h4>
+                                <h4 className="text-heading offset-md-2 col-xs-12 col-md-8">{link.title}</h4>
                                         <div ><p className=" cansat1p justify-content">{link.info1}</p></div>
                                             <ul className="cansat1ul">
                                                 <li className=" cansat1li ">{link.info2}</li>
