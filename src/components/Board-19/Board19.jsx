@@ -1,5 +1,6 @@
 import './Board19.css'
-import Bharadwaj from '../../assets/OurTeam/2019 circle/bharadwaj.png'
+// import Bharadwaj from '../../assets/OurTeam/2019 circle/bharadwaj.png'
+import Bharadwaj1 from '../../assets/OurTeam/2019 circle/bharadwaj1.png'
 import Adarsh from '../../assets/OurTeam/2019 circle/adarsh.png'
 import Ashwin from '../../assets/OurTeam/2019 circle/ashwin.png'
 import Deepshika from '../../assets/OurTeam/2019 circle/deepshika.png'
@@ -14,7 +15,7 @@ const Board19 = () => {
             <div className = 'board-year' >BOARD OF 2019</div>
             <div className = 'b19-grid-1'>
                 <Zoom>
-                <TeamMember linkedin="https://linkedin.com/in/bharadwaj98/" image={Bharadwaj} name="Bharadwaj Tallapragada" position_primary = "TEAM CAPTAIN" position_secondary = "MECHANICAL LEAD"/>
+                <TeamMember linkedin="https://linkedin.com/in/bharadwaj98/" image={Bharadwaj1} name="Bharadwaj Tallapragada" position_primary = "TEAM CAPTAIN" position_secondary = "MECHANICAL LEAD"/>
                 <TeamMember linkedin="https://linkedin.com/in/god7wyn/" image={Godwyn} name="Godwyn James William" position_primary = "TEAM VICE CAPTAIN" position_secondary = "COMPUTER SCIENCE LEAD"/>
                 <TeamMember linkedin="https://linkedin.com/in/adharshvenkatachalam/" image={Adarsh} name="Adarsh Venkatachalam" position_primary = "AVIONICS LEAD" position_secondary = ""/>
                 <TeamMember linkedin="" image={Karthik} name="Karthik Srinivas" position_primary = "MANAGEMENT LEAD" position_secondary = "" />

@@ -6,7 +6,8 @@ import Karishnu from '../../assets/OurTeam/2018 circle/karishnu.png'
 import Karthik from '../../assets/OurTeam/2018 circle/karthik.png'
 import Preeth from '../../assets/OurTeam/2018 circle/preeth.png'
 import Rajarshi from '../../assets/OurTeam/2018 circle/Rajarshi Bhattacharyya.png'
-import Shashank from '../../assets/OurTeam/2018 circle/shashank.png'
+// import Shashank from '../../assets/OurTeam/2018 circle/shashank.png'
+import shashank1 from '../../assets/OurTeam/2018 circle/shashank1.png'
 import Shashwat from '../../assets/OurTeam/2018 circle/shashwat.png'
 import Vaibhav from '../../assets/OurTeam/2018 circle/Vaibhav Sajnani.png'
 import Zoom from 'react-reveal/Zoom'
@@ -18,7 +19,7 @@ const Board18 = () => {
             <div className = 'b18-grid-1'>
                 <Zoom>
                 <TeamMember linkedin="https://linkedin.com/in/shaswat-rajput/" image={Shashwat} name="Shaswat Rajput" position_primary = "TEAM CAPTAIN" position_secondary = ""/>
-                <TeamMember linkedin="https://linkedin.com/in/shashanksamin/" image={Shashank} name="Shashank Amin" position_primary = "TEAM VICE CAPTAIN" position_secondary = "MECHANICAL LEAD"/>
+                <TeamMember linkedin="https://linkedin.com/in/shashanksamin/" image={shashank1} name="Shashank Amin" position_primary = "TEAM VICE CAPTAIN" position_secondary = "MECHANICAL LEAD"/>
                 <TeamMember linkedin="https://linkedin.com/in/karishnu/" image={Karishnu} name="Karishnu Poddar" position_primary = "COMPUTER SCIENCE LEAD" position_secondary = ""/>
                 <TeamMember linkedin="https://linkedin.com/in/rajarshi-bhattacharyya-a30036bb/" image={Rajarshi} name="Rajarshi Bhattacharyya" position_primary = "AVIONICS LEAD" position_secondary = ""/>
                 <TeamMember linkedin = "https://linkedin.com/in/baishayan-gupta-b22a04121/" image={Baishayan} name="Baishayan Gupta" position_primary = "MANAGEMENT LEAD" position_secondary = "" />

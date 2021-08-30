@@ -6,6 +6,7 @@ import img2 from "../../assets/Events/img2.png";
 import img3 from "../../assets/Events/img3.png";
 import img4 from "../../assets/Events/img4.png";
 import img5 from "../../assets/Events/img5.png";
+import evesatcan from "../../assets/Events/evesatcan.jpg"
 import Zoom from 'react-reveal/Zoom';
 import AOS from "aos";
 import "aos//dist/aos.css"
@@ -31,7 +32,7 @@ const EventOne = () => {
                         <b>About: <br /></b>
                         Team Sammard is in collaboration with Bharat Scouts and Guide, Karnataka, in their ongoing project SATCAN, which was inaugurated on 19th June. SATCAN aims at imparting STEM education to school and college students by teaching them how to build a can-sized satellite through a series of weekly workshops. Over 160 students around the globe were selected for this event, who will learn and build their own miniature satellite, and launch it in the near future with the facilities provided to them.
                     </div>
-                    <img src={img1} className="yashvi-eve-pic1" alt='picture1'></img>
+                    <img src={evesatcan} className="yashvi-eve-pic1" alt='picture1'></img>
                 </div>
             </div>
             </Zoom>

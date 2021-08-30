@@ -65,6 +65,7 @@
   }
   
   .yashvi-events-heading{
+    padding-top: 2em;
     display: flex;
     /* padding: 2% 0 0 5%; */
   }
@@ -86,24 +87,26 @@
 .yashvi-main-div{
     width: 95vw;
     height: fit-content;
+    padding: auto;
 
 }
 
 .yashvi-my-sub-div{
     height: fit-content;
     margin: 2% auto;
-    padding: 20px 35px;
+    margin-left: 18%;
+    padding: 25px 35px;
     display: flex;
     background: #F15831;
     border-radius: 36px;
-    width: 60vw;
+    width: 65vw;
     left: 245px;
     top: 320px;
     color: white;
 }
 
 .yashvi-eve-pic1{
-  padding-top: 1.3em;
+  padding-top: 1.8em;
     width: 335px;
     height: 335px;
 }
@@ -113,7 +116,7 @@
     width: fit-content;
     text-align: justify;
     font-size: 18px;
-    padding: 15px 70px 20px 0px;
+    padding: 15px 60px 20px 0px;
     font-family: 'Montserrat', sans-serif;
 }
 
